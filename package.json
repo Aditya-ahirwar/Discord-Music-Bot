@@ -1,0 +1,23 @@
+{
+  "name": "vibes",
+  "version": "1.0.0",
+  "description": "Music bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "author": "Aditya Ahirwar",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/voice": "^0.9.0",
+    "discord.js": "^13.6.0",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.4.1",
+    "nodemon": "^2.0.15",
+    "sodium-native": "^3.3.0",
+    "yt-search": "^2.10.3",
+    "ytdl-core": "^4.11.0"
+  }
+}
